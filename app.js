@@ -7,7 +7,6 @@ let tentativas = 1;
 function exibirNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
-    responsiveVoice.speak(texto, "Brazilian Portuguese Female", {rate:1.2});
 }
 
 // Função para exibir texto na tela
